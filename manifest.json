@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Autorandr",
+  "description": "Load display profiles with autorandr",
+  "developer_name": "rata",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "ar_kw",
+      "type": "keyword",
+      "name": "Autorandr keyword",
+      "description": "Keyword to list and load display profiles",
+      "default_value": "display"
+    }
+  ]
+}
